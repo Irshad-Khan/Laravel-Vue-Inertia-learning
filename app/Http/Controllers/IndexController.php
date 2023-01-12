@@ -8,7 +8,13 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return inertia('Index/Index');
+        return inertia('Index/Index', [
+            'message' => "Data Retrived",
+            'data' => [
+                'name' => 'Irshad Khan',
+                'email' => 'mcsirshad95@gmail.com'
+            ]
+        ]);
     }
 
     public function show()
