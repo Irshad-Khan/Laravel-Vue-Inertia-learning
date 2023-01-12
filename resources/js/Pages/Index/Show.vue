@@ -1,6 +1,6 @@
 <template>
-    <h3>Show View</h3>
-    <Link href="/">Main Page</Link>
+  <h3>Show View</h3>
+  <Link href="/">Main Page</Link>
 </template>
 
 <script setup>

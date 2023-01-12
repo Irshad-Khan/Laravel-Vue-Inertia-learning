@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <Link href="/">Index Page</Link>&nbsp;
-        <Link href="/hello">Show Page</Link>
-        <slot></slot>
-    </div>
+  <div>
+    <Link href="/">Index Page</Link>&nbsp;
+    <Link href="/hello">Show Page</Link>
+    <slot />
+  </div>
 </template>
 
 <script setup>
